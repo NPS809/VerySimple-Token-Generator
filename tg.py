@@ -13,5 +13,5 @@ def generate(length: int, seed: str):
             token += str(random.choice(nums))
     return token
 
-print(f"Ваш токен {generate(15, input("Введите сид:"))}")
+print(f"Your token {generate(input("Input token lenght:"), input("Input seed:"))}")
 input()
