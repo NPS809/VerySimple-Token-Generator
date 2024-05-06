@@ -3,7 +3,7 @@ from string import ascii_letters
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
-def generate(length: int, seed: str, num_frequency):
+def generate(length: int, seed: str, num_frequency: int):
     random.seed(seed)
     token = ""
     num_frequency = 1 if num_frequency < 1 else num_frequency
